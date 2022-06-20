@@ -1,125 +1,4110 @@
 #!/bin/bash
 
+#https://app.json-generator.com/FPFU5DBEPuRm
+
 docker exec -it router mongo --eval 'db.getSiblingDB("GestionClub").socios.insertMany([
-{
-  "nro_socio": 112323,
-  "nombre": "Juan Cruz",
-  "apellido": "Biroccio",
-  "dni": 27787688,
-  "direccion": "PJE Bollini 778 - CABA",
-  "deportes": ["Rugby"],
-  "cuotas": [{
-    "nro_cuota": 1,
-    "fecha_emision": new Date("2014-01-01"),
-    "fecha_vencimiento": new Date("2014-01-10"),
-    "importe": 325,
-    "fecha_pago": new Date("2014-01-07")
+  {
+    "nro_socio": 753124,
+    "nombre": "Gibbs",
+    "apellido": "Mcintosh",
+    "direccion": "74 Meserole Avenue, Cresaptown, Maine",
+    "deportes": [
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1992-01-22",
+        "importe": 31.21,
+        "fecha_vencimiento": "1989-04-28",
+        "fecha_pago": "1994-06-11"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1992-05-21",
+        "importe": 16.78,
+        "fecha_vencimiento": "1988-06-19",
+        "fecha_pago": "1991-04-09"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1992-01-25",
+        "importe": 48.76,
+        "fecha_vencimiento": "1994-01-26",
+        "fecha_pago": "1994-01-08"
+      }
+    ]
   },
   {
-    "nro_cuota": 2,
-    "fecha_emision": new Date("2014-02-01"),
-    "fecha_vencimiento": new Date("2014-02-10"),
-    "importe": 325,
-    "fecha_pago": new Date("2014-02-06")
+    "nro_socio": 695914,
+    "nombre": "Jacquelyn",
+    "apellido": "Leon",
+    "direccion": "99 Bokee Court, Mahtowa, Florida",
+    "deportes": [
+      "TENNIS",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1993-11-18",
+        "importe": 15.85,
+        "fecha_vencimiento": "1991-08-07",
+        "fecha_pago": "1992-09-12"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1991-10-20",
+        "importe": 22.75,
+        "fecha_vencimiento": "1990-09-04",
+        "fecha_pago": "1992-11-29"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1993-02-19",
+        "importe": 41.14,
+        "fecha_vencimiento": "1991-07-04",
+        "fecha_pago": "1990-06-30"
+      }
+    ]
   },
   {
-    "nro_cuota": 3,
-    "fecha_emision": new Date("2014-03-01"),
-    "fecha_vencimiento": new Date("2014-03-10"),
-    "importe": 325,
-    "fecha_pago": new Date("2014-03-07")
+    "nro_socio": 627666,
+    "nombre": "Dunn",
+    "apellido": "Fisher",
+    "direccion": "95 Bassett Avenue, Goochland, Alabama",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1993-04-24",
+        "importe": 39.64,
+        "fecha_vencimiento": "1994-02-08",
+        "fecha_pago": "1993-12-05"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1989-01-28",
+        "importe": 22.59,
+        "fecha_vencimiento": "1989-12-13",
+        "fecha_pago": "1989-11-09"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1989-02-22",
+        "importe": 30.35,
+        "fecha_vencimiento": "1990-12-20",
+        "fecha_pago": "1989-02-13"
+      }
+    ]
   },
   {
-    "nro_cuota": 4,
-    "fecha_emision": new Date("2014-04-01"),
-    "fecha_vencimiento": new Date("2014-04-10"),
-    "importe": 358
-  }]
-},
-{
-  "nro_socio": 113245,
-  "nombre": "Martina",
-  "apellido": "Pardo",
-  "dni": 25787777,
-  "direccion": "J Newbery 4633 - CABA",
-  "deportes": ["HOCKEY S/ CESPED", "CESTO BALL"],
-  "cuotas": [{
-    "nro_cuota": 1,
-    "fecha_emision": new Date("2014-01-01"),
-    "fecha_vencimiento": new Date("2014-01-10"),
-    "importe": 325,
-    "fecha_pago": new Date("2014-01-05")
+    "nro_socio": 360890,
+    "nombre": "Burke",
+    "apellido": "Collins",
+    "direccion": "67 Irving Avenue, Calvary, Rhode Island",
+    "deportes": [
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1993-05-24",
+        "importe": 42.47,
+        "fecha_vencimiento": "1991-01-31",
+        "fecha_pago": "1993-06-18"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1994-10-10",
+        "importe": 16.61,
+        "fecha_vencimiento": "1993-09-08",
+        "fecha_pago": "1988-05-06"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1991-04-23",
+        "importe": 14.73,
+        "fecha_vencimiento": "1989-05-26",
+        "fecha_pago": "1993-05-26"
+      }
+    ]
   },
   {
-    "nro_cuota": 2,
-    "fecha_emision": new Date("2014-02-01"),
-    "fecha_vencimiento": new Date("2014-02-10"),
-    "importe": 325
-  }]
-},
-{
-  "nro_socio": 114536,
-  "nombre": "Miguel",
-  "apellido": "Suparo",
-  "dni": 23787399,
-  "direccion": "B. Mitre 987 9no A - CABA",
-  "deportes": ["RUGBY", "TENNIS"],
-  "cuotas": [{
-    "nro_cuota": 1,
-    "fecha_emision": new Date("2014-01-01"),
-    "fecha_vencimiento": new Date("2014-01-10"),
-    "importe": 275,
-    "fecha_pago": new Date("2014-01-08")
+    "nro_socio": 635566,
+    "nombre": "Forbes",
+    "apellido": "Rodgers",
+    "direccion": "16 Quincy Street, Hollymead, Washington",
+    "deportes": [
+      "GOLF",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1993-11-27",
+        "importe": 36.37,
+        "fecha_vencimiento": "1991-04-21",
+        "fecha_pago": "1992-11-08"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1988-06-18",
+        "importe": 27.46,
+        "fecha_vencimiento": "1991-09-21",
+        "fecha_pago": "1989-07-10"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1993-02-22",
+        "importe": 23.84,
+        "fecha_vencimiento": "1992-07-29",
+        "fecha_pago": "1993-06-24"
+      }
+    ]
   },
   {
-    "nro_cuota": 2,
-    "fecha_emision": new Date("2014-02-01"),
-    "fecha_vencimiento": new Date("2014-02-10"),
-    "importe": 275,
-    "fecha_pago": new Date("2014-02-04")
+    "nro_socio": 977927,
+    "nombre": "Rush",
+    "apellido": "French",
+    "direccion": "43 Coyle Street, Gerber, West Virginia",
+    "deportes": [
+      "TENNIS",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1988-10-20",
+        "importe": 46.69,
+        "fecha_vencimiento": "1994-09-19",
+        "fecha_pago": "1993-06-28"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1991-10-09",
+        "importe": 15.58,
+        "fecha_vencimiento": "1988-07-14",
+        "fecha_pago": "1992-05-26"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1992-08-28",
+        "importe": 41.71,
+        "fecha_vencimiento": "1992-05-06",
+        "fecha_pago": "1988-02-26"
+      }
+    ]
   },
   {
-    "nro_cuota": 3,
-    "fecha_emision": new Date("2014-03-01"),
-    "fecha_vencimiento": new Date("2014-03-10"),
-    "importe": 275,
-    "fecha_pago": new Date("2014-03-09")
-  }]
-},
-{
-  "nro_socio": 120778,
-  "nombre": "Soledad",
-  "apellido": "Malvasi",
-  "dni": 25373789,
-  "direccion": "Rojas 1123 11vo 10 - CABA",
-  "deportes": ["HOCKEY S/ CESPED"],
-  "cuotas": [{
-    "nro_cuota": 1,
-    "fecha_emision": new Date("2014-01-01"),
-    "fecha_vencimiento": new Date("2014-01-10"),
-    "importe": 275
-  }]
-},
-{
-  "nro_socio": 121567,
-  "nombre": "Rodolfo",
-  "apellido": "Broggi",
-  "dni": 21667984,
-  "direccion": "J B Justo 6557 - CABA",
-  "deportes": ["RUGBY", "TENNIS"],
-  "cuotas": [{
-    "nro_cuota": 1,
-    "fecha_emision": new Date("2014-01-01"),
-    "fecha_vencimiento": new Date("2014-01-10"),
-    "importe": 325,
-    "fecha_pago": new Date("2014-01-06")
+    "nro_socio": 226565,
+    "nombre": "Vickie",
+    "apellido": "Conley",
+    "direccion": "5 Roebling Street, Wedgewood, Northern Mariana Islands",
+    "deportes": [
+      "RUGBY",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1992-01-01",
+        "importe": 29.74,
+        "fecha_vencimiento": "1990-07-04",
+        "fecha_pago": "1989-12-23"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1992-08-10",
+        "importe": 38.06,
+        "fecha_vencimiento": "1990-04-17",
+        "fecha_pago": "1989-10-04"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1993-02-19",
+        "importe": 34.23,
+        "fecha_vencimiento": "1993-08-12",
+        "fecha_pago": "1990-03-19"
+      }
+    ]
   },
   {
-    "nro_cuota": 2,
-    "fecha_emision": new Date("2014-02-01"),
-    "fecha_vencimiento": new Date("2014-02-10"),
-    "importe": 325
-  }]
-}
+    "nro_socio": 346806,
+    "nombre": "Nadine",
+    "apellido": "Trujillo",
+    "direccion": "21 Canton Court, Walton, New Jersey",
+    "deportes": [
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1992-07-28",
+        "importe": 40.34,
+        "fecha_vencimiento": "1992-01-31",
+        "fecha_pago": "1990-08-24"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1990-10-28",
+        "importe": 15.09,
+        "fecha_vencimiento": "1992-12-18",
+        "fecha_pago": "1994-07-07"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1989-11-18",
+        "importe": 12.83,
+        "fecha_vencimiento": "1988-11-04",
+        "fecha_pago": "1993-06-14"
+      }
+    ]
+  },
+  {
+    "nro_socio": 778813,
+    "nombre": "Sherman",
+    "apellido": "Lowery",
+    "direccion": "24 Jefferson Street, Fairview, New York",
+    "deportes": [
+      "RUGBY",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1989-07-18",
+        "importe": 30.52,
+        "fecha_vencimiento": "1990-10-07",
+        "fecha_pago": "1989-12-02"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1993-03-28",
+        "importe": 43.27,
+        "fecha_vencimiento": "1992-04-22",
+        "fecha_pago": "1992-01-21"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1993-12-18",
+        "importe": 33.97,
+        "fecha_vencimiento": "1990-06-09",
+        "fecha_pago": "1992-05-17"
+      }
+    ]
+  },
+  {
+    "nro_socio": 585825,
+    "nombre": "Moran",
+    "apellido": "Mcleod",
+    "direccion": "59 Scholes Street, Dexter, Hawaii",
+    "deportes": [
+      "CESTO BALL",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1988-03-27",
+        "importe": 48.98,
+        "fecha_vencimiento": "1989-03-08",
+        "fecha_pago": "1993-03-27"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1992-12-08",
+        "importe": 28.53,
+        "fecha_vencimiento": "1992-05-10",
+        "fecha_pago": "1994-10-26"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1988-03-17",
+        "importe": 24.98,
+        "fecha_vencimiento": "1989-01-07",
+        "fecha_pago": "1994-09-10"
+      }
+    ]
+  },
+  {
+    "nro_socio": 165235,
+    "nombre": "Carol",
+    "apellido": "Hopper",
+    "direccion": "29 Chester Avenue, Norfolk, Minnesota",
+    "deportes": [
+      "RUGBY",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1989-06-08",
+        "importe": 37.55,
+        "fecha_vencimiento": "1989-12-21",
+        "fecha_pago": "1993-08-25"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1993-05-07",
+        "importe": 12.99,
+        "fecha_vencimiento": "1993-11-03",
+        "fecha_pago": "1990-07-02"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1993-08-04",
+        "importe": 46.36,
+        "fecha_vencimiento": "1990-06-03",
+        "fecha_pago": "1993-04-21"
+      }
+    ]
+  },
+  {
+    "nro_socio": 338490,
+    "nombre": "Della",
+    "apellido": "Velez",
+    "direccion": "75 Cambridge Place, Crayne, North Carolina",
+    "deportes": [
+      "TENNIS",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1988-02-11",
+        "importe": 12.96,
+        "fecha_vencimiento": "1990-02-09",
+        "fecha_pago": "1994-06-15"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1990-06-29",
+        "importe": 41.48,
+        "fecha_vencimiento": "1988-08-30",
+        "fecha_pago": "1994-01-09"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1990-06-27",
+        "importe": 47.49,
+        "fecha_vencimiento": "1993-05-30",
+        "fecha_pago": "1990-06-19"
+      }
+    ]
+  },
+  {
+    "nro_socio": 993640,
+    "nombre": "James",
+    "apellido": "Garner",
+    "direccion": "91 Broadway , Bethany, Utah",
+    "deportes": [
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1988-09-16",
+        "importe": 31.66,
+        "fecha_vencimiento": "1992-05-24",
+        "fecha_pago": "1989-08-04"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1992-03-07",
+        "importe": 22.69,
+        "fecha_vencimiento": "1989-04-20",
+        "fecha_pago": "1991-06-07"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1990-02-19",
+        "importe": 18.92,
+        "fecha_vencimiento": "1994-09-22",
+        "fecha_pago": "1988-12-08"
+      }
+    ]
+  },
+  {
+    "nro_socio": 462924,
+    "nombre": "Stephens",
+    "apellido": "Mcgee",
+    "direccion": "10 Wythe Place, Blanford, Arizona",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1992-10-13",
+        "importe": 37.11,
+        "fecha_vencimiento": "1990-09-18",
+        "fecha_pago": "1989-02-28"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1989-05-01",
+        "importe": 48.91,
+        "fecha_vencimiento": "1992-08-18",
+        "fecha_pago": "1989-01-30"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1990-10-25",
+        "importe": 31.37,
+        "fecha_vencimiento": "1989-04-21",
+        "fecha_pago": "1989-03-27"
+      }
+    ]
+  },
+  {
+    "nro_socio": 667837,
+    "nombre": "Page",
+    "apellido": "Barker",
+    "direccion": "83 Kenmore Terrace, Carlos, Michigan",
+    "deportes": [
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1990-07-10",
+        "importe": 38.52,
+        "fecha_vencimiento": "1994-10-27",
+        "fecha_pago": "1992-04-14"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1988-02-04",
+        "importe": 34.66,
+        "fecha_vencimiento": "1989-08-27",
+        "fecha_pago": "1990-11-17"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1993-08-09",
+        "importe": 32.46,
+        "fecha_vencimiento": "1988-10-01",
+        "fecha_pago": "1994-06-08"
+      }
+    ]
+  },
+  {
+    "nro_socio": 906412,
+    "nombre": "Jeanne",
+    "apellido": "Bates",
+    "direccion": "39 Delevan Street, Durham, Pennsylvania",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1992-04-26",
+        "importe": 31.77,
+        "fecha_vencimiento": "1991-04-11",
+        "fecha_pago": "1991-10-24"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1992-08-03",
+        "importe": 21.57,
+        "fecha_vencimiento": "1992-03-09",
+        "fecha_pago": "1989-10-27"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1990-05-09",
+        "importe": 23.45,
+        "fecha_vencimiento": "1988-12-28",
+        "fecha_pago": "1993-06-21"
+      }
+    ]
+  },
+  {
+    "nro_socio": 941346,
+    "nombre": "Angelica",
+    "apellido": "Mcbride",
+    "direccion": "33 Grafton Street, Blodgett, Wisconsin",
+    "deportes": [
+      "RUGBY",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1991-08-11",
+        "importe": 13.05,
+        "fecha_vencimiento": "1988-02-19",
+        "fecha_pago": "1993-05-23"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1994-11-20",
+        "importe": 23.84,
+        "fecha_vencimiento": "1993-05-13",
+        "fecha_pago": "1994-03-20"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1992-03-21",
+        "importe": 21.71,
+        "fecha_vencimiento": "1991-05-28",
+        "fecha_pago": "1991-09-02"
+      }
+    ]
+  },
+  {
+    "nro_socio": 501186,
+    "nombre": "Dollie",
+    "apellido": "Cabrera",
+    "direccion": "20 Calder Place, Caron, Marshall Islands",
+    "deportes": [
+      "TENNIS",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1990-07-18",
+        "importe": 37.87,
+        "fecha_vencimiento": "1991-09-11",
+        "fecha_pago": "1991-10-09"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1993-12-18",
+        "importe": 29.03,
+        "fecha_vencimiento": "1991-09-02",
+        "fecha_pago": "1993-10-08"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1988-05-28",
+        "importe": 34.11,
+        "fecha_vencimiento": "1992-09-02",
+        "fecha_pago": "1992-06-28"
+      }
+    ]
+  },
+  {
+    "nro_socio": 679100,
+    "nombre": "Douglas",
+    "apellido": "Mueller",
+    "direccion": "4 Osborn Street, Matheny, Kansas",
+    "deportes": [
+      "GOLF",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1992-04-10",
+        "importe": 22.77,
+        "fecha_vencimiento": "1994-09-22",
+        "fecha_pago": "1992-01-04"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1989-10-04",
+        "importe": 39.38,
+        "fecha_vencimiento": "1991-03-28",
+        "fecha_pago": "1994-11-23"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1988-12-29",
+        "importe": 38.82,
+        "fecha_vencimiento": "1989-02-17",
+        "fecha_pago": "1993-03-17"
+      }
+    ]
+  },
+  {
+    "nro_socio": 264713,
+    "nombre": "Irwin",
+    "apellido": "Brewer",
+    "direccion": "31 Cypress Court, Townsend, New Hampshire",
+    "deportes": [
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1988-04-25",
+        "importe": 20.41,
+        "fecha_vencimiento": "1990-10-25",
+        "fecha_pago": "1990-12-07"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1994-07-22",
+        "importe": 10.09,
+        "fecha_vencimiento": "1991-05-16",
+        "fecha_pago": "1993-05-25"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1992-11-05",
+        "importe": 48.17,
+        "fecha_vencimiento": "1991-05-09",
+        "fecha_pago": "1989-01-30"
+      }
+    ]
+  },
+  {
+    "nro_socio": 905255,
+    "nombre": "Johns",
+    "apellido": "William",
+    "direccion": "76 Creamer Street, Sanford, Ohio",
+    "deportes": [
+      "GOLF",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1991-07-12",
+        "importe": 16.81,
+        "fecha_vencimiento": "1993-05-15",
+        "fecha_pago": "1994-03-28"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1991-08-26",
+        "importe": 21.44,
+        "fecha_vencimiento": "1989-06-13",
+        "fecha_pago": "1991-09-06"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1989-05-29",
+        "importe": 20.76,
+        "fecha_vencimiento": "1988-02-21",
+        "fecha_pago": "1994-09-06"
+      }
+    ]
+  },
+  {
+    "nro_socio": 629974,
+    "nombre": "Knowles",
+    "apellido": "Hoffman",
+    "direccion": "37 Montague Terrace, Snelling, South Carolina",
+    "deportes": [
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1993-08-21",
+        "importe": 10.99,
+        "fecha_vencimiento": "1992-04-11",
+        "fecha_pago": "1989-11-01"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1991-06-02",
+        "importe": 27.62,
+        "fecha_vencimiento": "1988-10-16",
+        "fecha_pago": "1991-12-03"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1993-05-24",
+        "importe": 31.59,
+        "fecha_vencimiento": "1989-09-10",
+        "fecha_pago": "1988-07-16"
+      }
+    ]
+  },
+  {
+    "nro_socio": 164156,
+    "nombre": "Maggie",
+    "apellido": "Foley",
+    "direccion": "44 Fenimore Street, Twilight, Georgia",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1993-02-03",
+        "importe": 32.51,
+        "fecha_vencimiento": "1992-03-09",
+        "fecha_pago": "1992-08-28"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1992-06-06",
+        "importe": 33.09,
+        "fecha_vencimiento": "1990-09-13",
+        "fecha_pago": "1989-12-08"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1988-11-12",
+        "importe": 43.42,
+        "fecha_vencimiento": "1992-11-05",
+        "fecha_pago": "1994-03-14"
+      }
+    ]
+  },
+  {
+    "nro_socio": 353374,
+    "nombre": "Yates",
+    "apellido": "Davis",
+    "direccion": "37 Guider Avenue, Cornucopia, Tennessee",
+    "deportes": [
+      "TENNIS",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1990-10-25",
+        "importe": 19.84,
+        "fecha_vencimiento": "1989-11-02",
+        "fecha_pago": "1990-05-20"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1990-12-22",
+        "importe": 38.47,
+        "fecha_vencimiento": "1994-05-27",
+        "fecha_pago": "1988-03-27"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1990-09-23",
+        "importe": 22.26,
+        "fecha_vencimiento": "1988-06-20",
+        "fecha_pago": "1994-07-18"
+      }
+    ]
+  },
+  {
+    "nro_socio": 813257,
+    "nombre": "Curtis",
+    "apellido": "Crane",
+    "direccion": "36 Willow Street, Dalton, Mississippi",
+    "deportes": [
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1993-09-12",
+        "importe": 36.01,
+        "fecha_vencimiento": "1989-11-11",
+        "fecha_pago": "1991-06-03"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1989-07-28",
+        "importe": 43.66,
+        "fecha_vencimiento": "1992-01-18",
+        "fecha_pago": "1992-12-15"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1992-08-05",
+        "importe": 13.44,
+        "fecha_vencimiento": "1990-10-24",
+        "fecha_pago": "1994-02-12"
+      }
+    ]
+  },
+  {
+    "nro_socio": 518452,
+    "nombre": "Nelson",
+    "apellido": "Salas",
+    "direccion": "27 Albemarle Road, Worton, North Dakota",
+    "deportes": [
+      "GOLF",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1992-09-07",
+        "importe": 34.99,
+        "fecha_vencimiento": "1993-04-02",
+        "fecha_pago": "1990-02-13"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1988-10-21",
+        "importe": 11.83,
+        "fecha_vencimiento": "1992-11-30",
+        "fecha_pago": "1988-07-03"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1992-08-26",
+        "importe": 31.24,
+        "fecha_vencimiento": "1993-08-20",
+        "fecha_pago": "1989-03-09"
+      }
+    ]
+  },
+  {
+    "nro_socio": 655855,
+    "nombre": "Beard",
+    "apellido": "Mcfadden",
+    "direccion": "3 Sumner Place, Calverton, American Samoa",
+    "deportes": [
+      "RUGBY",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1988-11-08",
+        "importe": 16.65,
+        "fecha_vencimiento": "1988-11-09",
+        "fecha_pago": "1994-03-17"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1990-01-02",
+        "importe": 11.38,
+        "fecha_vencimiento": "1991-03-06",
+        "fecha_pago": "1988-03-31"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1994-04-15",
+        "importe": 27.59,
+        "fecha_vencimiento": "1990-01-09",
+        "fecha_pago": "1990-06-22"
+      }
+    ]
+  },
+  {
+    "nro_socio": 316196,
+    "nombre": "Mullins",
+    "apellido": "Harmon",
+    "direccion": "72 Kingsway Place, Ivanhoe, Idaho",
+    "deportes": [
+      "TENNIS",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1989-04-19",
+        "importe": 23.01,
+        "fecha_vencimiento": "1991-12-11",
+        "fecha_pago": "1988-12-20"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1992-11-09",
+        "importe": 22.75,
+        "fecha_vencimiento": "1989-11-15",
+        "fecha_pago": "1988-03-04"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1989-07-23",
+        "importe": 26.28,
+        "fecha_vencimiento": "1990-03-08",
+        "fecha_pago": "1990-06-19"
+      }
+    ]
+  },
+  {
+    "nro_socio": 553246,
+    "nombre": "Patty",
+    "apellido": "Castro",
+    "direccion": "23 Kenmore Court, Maury, Vermont",
+    "deportes": [
+      "GOLF",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1994-06-05",
+        "importe": 45.75,
+        "fecha_vencimiento": "1993-05-02",
+        "fecha_pago": "1993-01-27"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1994-05-09",
+        "importe": 20.11,
+        "fecha_vencimiento": "1993-10-21",
+        "fecha_pago": "1990-03-31"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1992-11-30",
+        "importe": 10.23,
+        "fecha_vencimiento": "1993-01-26",
+        "fecha_pago": "1989-06-07"
+      }
+    ]
+  },
+  {
+    "nro_socio": 706606,
+    "nombre": "Richard",
+    "apellido": "Woodward",
+    "direccion": "66 Lorimer Street, Tyro, California",
+    "deportes": [
+      "RUGBY",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1990-07-31",
+        "importe": 13.93,
+        "fecha_vencimiento": "1990-07-15",
+        "fecha_pago": "1988-07-08"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1990-07-04",
+        "importe": 34.85,
+        "fecha_vencimiento": "1988-12-24",
+        "fecha_pago": "1991-03-13"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1991-09-03",
+        "importe": 42.39,
+        "fecha_vencimiento": "1994-07-14",
+        "fecha_pago": "1994-05-04"
+      }
+    ]
+  },
+  {
+    "nro_socio": 314843,
+    "nombre": "Walker",
+    "apellido": "Cochran",
+    "direccion": "12 Cadman Plaza, Nile, Guam",
+    "deportes": [
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1988-11-14",
+        "importe": 40.28,
+        "fecha_vencimiento": "1990-03-03",
+        "fecha_pago": "1989-01-29"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1992-01-14",
+        "importe": 18.11,
+        "fecha_vencimiento": "1992-07-16",
+        "fecha_pago": "1989-03-18"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1989-03-16",
+        "importe": 38.02,
+        "fecha_vencimiento": "1990-11-15",
+        "fecha_pago": "1990-07-05"
+      }
+    ]
+  },
+  {
+    "nro_socio": 149378,
+    "nombre": "Cook",
+    "apellido": "Jackson",
+    "direccion": "33 Turner Place, Belva, Oklahoma",
+    "deportes": [
+      "GOLF",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1990-06-27",
+        "importe": 35.91,
+        "fecha_vencimiento": "1993-06-25",
+        "fecha_pago": "1992-10-03"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1990-05-10",
+        "importe": 29.63,
+        "fecha_vencimiento": "1990-10-21",
+        "fecha_pago": "1992-01-25"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1994-05-17",
+        "importe": 34.75,
+        "fecha_vencimiento": "1990-12-13",
+        "fecha_pago": "1994-06-12"
+      }
+    ]
+  },
+  {
+    "nro_socio": 447171,
+    "nombre": "Debbie",
+    "apellido": "Cunningham",
+    "direccion": "22 Aviation Road, Clarence, Puerto Rico",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1990-04-06",
+        "importe": 14.83,
+        "fecha_vencimiento": "1990-01-08",
+        "fecha_pago": "1993-07-13"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1991-01-10",
+        "importe": 24.01,
+        "fecha_vencimiento": "1994-09-28",
+        "fecha_pago": "1990-06-16"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1990-04-13",
+        "importe": 39.35,
+        "fecha_vencimiento": "1994-10-17",
+        "fecha_pago": "1991-02-27"
+      }
+    ]
+  },
+  {
+    "nro_socio": 482202,
+    "nombre": "Poole",
+    "apellido": "Logan",
+    "direccion": "31 Linden Street, Kula, Illinois",
+    "deportes": [
+      "CESTO BALL",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1993-02-14",
+        "importe": 45.24,
+        "fecha_vencimiento": "1993-12-05",
+        "fecha_pago": "1989-10-06"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1988-10-14",
+        "importe": 12.63,
+        "fecha_vencimiento": "1991-03-24",
+        "fecha_pago": "1990-08-05"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1991-10-17",
+        "importe": 26.78,
+        "fecha_vencimiento": "1990-03-09",
+        "fecha_pago": "1990-10-29"
+      }
+    ]
+  },
+  {
+    "nro_socio": 835054,
+    "nombre": "Winnie",
+    "apellido": "Glenn",
+    "direccion": "74 Vandervoort Avenue, Barronett, Oregon",
+    "deportes": [
+      "RUGBY",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1994-04-13",
+        "importe": 17.53,
+        "fecha_vencimiento": "1994-04-29",
+        "fecha_pago": "1989-04-05"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1994-08-29",
+        "importe": 19.28,
+        "fecha_vencimiento": "1991-11-05",
+        "fecha_pago": "1989-03-28"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1990-08-22",
+        "importe": 26.32,
+        "fecha_vencimiento": "1988-07-13",
+        "fecha_pago": "1994-05-08"
+      }
+    ]
+  },
+  {
+    "nro_socio": 324785,
+    "nombre": "Alexander",
+    "apellido": "Jacobson",
+    "direccion": "21 Wyona Street, Idledale, Virginia",
+    "deportes": [
+      "RUGBY",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1994-05-22",
+        "importe": 37.84,
+        "fecha_vencimiento": "1993-02-23",
+        "fecha_pago": "1992-10-01"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1992-11-26",
+        "importe": 14.79,
+        "fecha_vencimiento": "1988-09-08",
+        "fecha_pago": "1992-07-06"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1988-05-10",
+        "importe": 28.74,
+        "fecha_vencimiento": "1988-07-14",
+        "fecha_pago": "1989-05-15"
+      }
+    ]
+  },
+  {
+    "nro_socio": 276200,
+    "nombre": "Callahan",
+    "apellido": "Parker",
+    "direccion": "53 Hudson Avenue, Keyport, Arkansas",
+    "deportes": [
+      "GOLF",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1988-04-25",
+        "importe": 12.72,
+        "fecha_vencimiento": "1994-10-21",
+        "fecha_pago": "1993-08-30"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1994-08-09",
+        "importe": 24.22,
+        "fecha_vencimiento": "1990-03-27",
+        "fecha_pago": "1994-12-28"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1993-04-01",
+        "importe": 30.85,
+        "fecha_vencimiento": "1991-05-29",
+        "fecha_pago": "1988-05-29"
+      }
+    ]
+  },
+  {
+    "nro_socio": 210854,
+    "nombre": "Copeland",
+    "apellido": "Saunders",
+    "direccion": "30 Melrose Street, Gibbsville, Colorado",
+    "deportes": [
+      "RUGBY",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1993-01-12",
+        "importe": 22.12,
+        "fecha_vencimiento": "1994-11-24",
+        "fecha_pago": "1988-01-21"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1990-09-20",
+        "importe": 32.74,
+        "fecha_vencimiento": "1992-12-09",
+        "fecha_pago": "1988-12-16"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1994-11-30",
+        "importe": 35.18,
+        "fecha_vencimiento": "1991-08-03",
+        "fecha_pago": "1991-02-14"
+      }
+    ]
+  },
+  {
+    "nro_socio": 496136,
+    "nombre": "Frazier",
+    "apellido": "Bowen",
+    "direccion": "82 Haring Street, Brandywine, Federated States Of Micronesia",
+    "deportes": [
+      "GOLF",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1989-04-05",
+        "importe": 13.62,
+        "fecha_vencimiento": "1994-04-06",
+        "fecha_pago": "1992-04-14"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1993-07-14",
+        "importe": 18.62,
+        "fecha_vencimiento": "1990-06-28",
+        "fecha_pago": "1990-07-23"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1992-08-16",
+        "importe": 16.67,
+        "fecha_vencimiento": "1989-12-19",
+        "fecha_pago": "1990-09-07"
+      }
+    ]
+  },
+  {
+    "nro_socio": 835095,
+    "nombre": "Emma",
+    "apellido": "Cervantes",
+    "direccion": "56 Bartlett Place, Weeksville, Connecticut",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1993-03-27",
+        "importe": 37.84,
+        "fecha_vencimiento": "1989-09-29",
+        "fecha_pago": "1989-04-17"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1993-11-30",
+        "importe": 11.76,
+        "fecha_vencimiento": "1988-04-17",
+        "fecha_pago": "1993-09-01"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1990-03-31",
+        "importe": 13.41,
+        "fecha_vencimiento": "1993-03-09",
+        "fecha_pago": "1989-03-14"
+      }
+    ]
+  },
+  {
+    "nro_socio": 304923,
+    "nombre": "Jensen",
+    "apellido": "Martin",
+    "direccion": "78 Garfield Place, Century, Missouri",
+    "deportes": [
+      "GOLF",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1994-06-05",
+        "importe": 49.26,
+        "fecha_vencimiento": "1989-08-24",
+        "fecha_pago": "1988-09-18"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1988-03-29",
+        "importe": 38.98,
+        "fecha_vencimiento": "1990-10-23",
+        "fecha_pago": "1989-06-05"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1990-10-06",
+        "importe": 32.77,
+        "fecha_vencimiento": "1992-01-25",
+        "fecha_pago": "1994-04-16"
+      }
+    ]
+  },
+  {
+    "nro_socio": 487467,
+    "nombre": "Norton",
+    "apellido": "Acevedo",
+    "direccion": "26 Bayview Place, Silkworth, Montana",
+    "deportes": [
+      "RUGBY",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1989-08-27",
+        "importe": 40.43,
+        "fecha_vencimiento": "1992-02-27",
+        "fecha_pago": "1991-05-04"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1990-03-25",
+        "importe": 34.78,
+        "fecha_vencimiento": "1990-08-13",
+        "fecha_pago": "1994-08-28"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1994-04-26",
+        "importe": 18.83,
+        "fecha_vencimiento": "1994-07-22",
+        "fecha_pago": "1990-02-04"
+      }
+    ]
+  },
+  {
+    "nro_socio": 263821,
+    "nombre": "Deborah",
+    "apellido": "Clayton",
+    "direccion": "21 Rapelye Street, Dante, Massachusetts",
+    "deportes": [
+      "GOLF",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1994-05-08",
+        "importe": 20.68,
+        "fecha_vencimiento": "1994-07-13",
+        "fecha_pago": "1989-04-08"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1989-05-04",
+        "importe": 44.39,
+        "fecha_vencimiento": "1988-10-11",
+        "fecha_pago": "1993-04-13"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1988-10-05",
+        "importe": 33.31,
+        "fecha_vencimiento": "1991-09-30",
+        "fecha_pago": "1994-08-02"
+      }
+    ]
+  },
+  {
+    "nro_socio": 222137,
+    "nombre": "Lawson",
+    "apellido": "Avila",
+    "direccion": "97 Varick Avenue, Chapin, Iowa",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1994-05-01",
+        "importe": 17.89,
+        "fecha_vencimiento": "1988-12-05",
+        "fecha_pago": "1992-03-22"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1988-06-13",
+        "importe": 25.91,
+        "fecha_vencimiento": "1991-08-09",
+        "fecha_pago": "1992-02-02"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1988-02-11",
+        "importe": 30.79,
+        "fecha_vencimiento": "1993-05-27",
+        "fecha_pago": "1988-07-09"
+      }
+    ]
+  },
+  {
+    "nro_socio": 772510,
+    "nombre": "Carly",
+    "apellido": "Noel",
+    "direccion": "95 Noble Street, Glendale, Maryland",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1993-05-18",
+        "importe": 34.52,
+        "fecha_vencimiento": "1991-11-08",
+        "fecha_pago": "1993-03-11"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1993-07-29",
+        "importe": 36.26,
+        "fecha_vencimiento": "1988-12-26",
+        "fecha_pago": "1991-06-26"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1994-02-03",
+        "importe": 18.67,
+        "fecha_vencimiento": "1988-11-20",
+        "fecha_pago": "1990-08-16"
+      }
+    ]
+  },
+  {
+    "nro_socio": 403174,
+    "nombre": "Bette",
+    "apellido": "Lynn",
+    "direccion": "3 Gelston Avenue, Rushford, Texas",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1993-12-27",
+        "importe": 48.79,
+        "fecha_vencimiento": "1989-07-24",
+        "fecha_pago": "1992-11-05"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1990-07-18",
+        "importe": 32.53,
+        "fecha_vencimiento": "1988-06-25",
+        "fecha_pago": "1988-06-14"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1988-06-03",
+        "importe": 36.14,
+        "fecha_vencimiento": "1994-08-09",
+        "fecha_pago": "1988-05-24"
+      }
+    ]
+  },
+  {
+    "nro_socio": 352737,
+    "nombre": "Nola",
+    "apellido": "Serrano",
+    "direccion": "20 Engert Avenue, Idamay, Wyoming",
+    "deportes": [
+      "TENNIS",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1989-11-11",
+        "importe": 25.81,
+        "fecha_vencimiento": "1994-08-24",
+        "fecha_pago": "1994-04-27"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1994-07-31",
+        "importe": 36.01,
+        "fecha_vencimiento": "1989-04-14",
+        "fecha_pago": "1993-01-19"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1994-02-12",
+        "importe": 10.47,
+        "fecha_vencimiento": "1990-06-01",
+        "fecha_pago": "1994-03-10"
+      }
+    ]
+  },
+  {
+    "nro_socio": 121306,
+    "nombre": "Hamilton",
+    "apellido": "Hatfield",
+    "direccion": "25 Pioneer Street, Brantleyville, Delaware",
+    "deportes": [
+      "TENNIS",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1991-01-17",
+        "importe": 11.01,
+        "fecha_vencimiento": "1990-10-13",
+        "fecha_pago": "1994-06-17"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1988-10-07",
+        "importe": 26.59,
+        "fecha_vencimiento": "1993-08-05",
+        "fecha_pago": "1992-08-11"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1992-08-07",
+        "importe": 17.74,
+        "fecha_vencimiento": "1992-12-18",
+        "fecha_pago": "1988-12-07"
+      }
+    ]
+  },
+  {
+    "nro_socio": 782614,
+    "nombre": "Cornelia",
+    "apellido": "Nicholson",
+    "direccion": "51 Bay Avenue, Nord, District Of Columbia",
+    "deportes": [
+      "TENNIS",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1991-03-08",
+        "importe": 31.31,
+        "fecha_vencimiento": "1994-08-24",
+        "fecha_pago": "1992-01-26"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1988-01-06",
+        "importe": 45.32,
+        "fecha_vencimiento": "1992-08-28",
+        "fecha_pago": "1989-04-11"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1989-07-04",
+        "importe": 42.17,
+        "fecha_vencimiento": "1990-08-17",
+        "fecha_pago": "1991-12-28"
+      }
+    ]
+  },
+  {
+    "nro_socio": 575138,
+    "nombre": "Holcomb",
+    "apellido": "Boone",
+    "direccion": "87 Sheffield Avenue, Hasty, Nevada",
+    "deportes": [
+      "CESTO BALL",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1989-04-29",
+        "importe": 16.91,
+        "fecha_vencimiento": "1994-02-02",
+        "fecha_pago": "1988-11-17"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1993-01-11",
+        "importe": 41.72,
+        "fecha_vencimiento": "1992-11-09",
+        "fecha_pago": "1994-02-19"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1994-05-22",
+        "importe": 39.11,
+        "fecha_vencimiento": "1994-01-19",
+        "fecha_pago": "1992-07-26"
+      }
+    ]
+  },
+  {
+    "nro_socio": 746954,
+    "nombre": "Watts",
+    "apellido": "Pittman",
+    "direccion": "51 Boardwalk , Esmont, South Dakota",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1994-02-11",
+        "importe": 40.65,
+        "fecha_vencimiento": "1991-03-13",
+        "fecha_pago": "1988-09-02"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1988-09-02",
+        "importe": 46.86,
+        "fecha_vencimiento": "1988-06-24",
+        "fecha_pago": "1988-08-18"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1994-12-14",
+        "importe": 11.48,
+        "fecha_vencimiento": "1989-02-13",
+        "fecha_pago": "1994-12-05"
+      }
+    ]
+  },
+  {
+    "nro_socio": 151081,
+    "nombre": "Meghan",
+    "apellido": "Hall",
+    "direccion": "64 Canarsie Road, Movico, New Mexico",
+    "deportes": [
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1988-02-26",
+        "importe": 12.16,
+        "fecha_vencimiento": "1990-10-14",
+        "fecha_pago": "1994-07-27"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1991-10-09",
+        "importe": 37.67,
+        "fecha_vencimiento": "1992-09-16",
+        "fecha_pago": "1991-04-26"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1989-07-29",
+        "importe": 32.09,
+        "fecha_vencimiento": "1991-05-06",
+        "fecha_pago": "1994-04-08"
+      }
+    ]
+  },
+  {
+    "nro_socio": 361717,
+    "nombre": "Cortez",
+    "apellido": "Carey",
+    "direccion": "95 Mersereau Court, Lawrence, Alaska",
+    "deportes": [
+      "CESTO BALL",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1988-08-14",
+        "importe": 27.85,
+        "fecha_vencimiento": "1994-09-10",
+        "fecha_pago": "1989-12-08"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1994-11-06",
+        "importe": 29.07,
+        "fecha_vencimiento": "1994-10-10",
+        "fecha_pago": "1990-05-01"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1988-07-14",
+        "importe": 27.98,
+        "fecha_vencimiento": "1994-02-14",
+        "fecha_pago": "1988-03-27"
+      }
+    ]
+  },
+  {
+    "nro_socio": 778545,
+    "nombre": "Lloyd",
+    "apellido": "Ware",
+    "direccion": "16 Bragg Street, Adamstown, Louisiana",
+    "deportes": [
+      "TENNIS",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1994-05-16",
+        "importe": 18.16,
+        "fecha_vencimiento": "1990-10-04",
+        "fecha_pago": "1990-10-22"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1992-02-28",
+        "importe": 39.45,
+        "fecha_vencimiento": "1991-08-08",
+        "fecha_pago": "1992-02-27"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1989-12-28",
+        "importe": 41.67,
+        "fecha_vencimiento": "1988-06-30",
+        "fecha_pago": "1992-02-06"
+      }
+    ]
+  },
+  {
+    "nro_socio": 563436,
+    "nombre": "Kidd",
+    "apellido": "Hodges",
+    "direccion": "74 Florence Avenue, Garnet, Indiana",
+    "deportes": [
+      "CESTO BALL",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1992-10-27",
+        "importe": 37.27,
+        "fecha_vencimiento": "1991-10-05",
+        "fecha_pago": "1992-08-03"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1992-12-10",
+        "importe": 15.57,
+        "fecha_vencimiento": "1994-03-11",
+        "fecha_pago": "1989-06-07"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1991-06-18",
+        "importe": 42.85,
+        "fecha_vencimiento": "1993-07-18",
+        "fecha_pago": "1988-07-09"
+      }
+    ]
+  },
+  {
+    "nro_socio": 797262,
+    "nombre": "Russell",
+    "apellido": "Wilkins",
+    "direccion": "45 Brooklyn Avenue, Wadsworth, Palau",
+    "deportes": [
+      "GOLF",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1989-02-17",
+        "importe": 39.17,
+        "fecha_vencimiento": "1991-12-20",
+        "fecha_pago": "1990-09-06"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1994-08-20",
+        "importe": 47.75,
+        "fecha_vencimiento": "1991-11-02",
+        "fecha_pago": "1994-01-20"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1990-01-05",
+        "importe": 46.22,
+        "fecha_vencimiento": "1991-11-26",
+        "fecha_pago": "1992-04-01"
+      }
+    ]
+  },
+  {
+    "nro_socio": 809125,
+    "nombre": "Barton",
+    "apellido": "Oliver",
+    "direccion": "61 Blake Court, Strong, Kentucky",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1991-07-28",
+        "importe": 19.66,
+        "fecha_vencimiento": "1988-08-31",
+        "fecha_pago": "1993-01-12"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1992-06-30",
+        "importe": 38.63,
+        "fecha_vencimiento": "1992-05-05",
+        "fecha_pago": "1991-09-08"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1993-10-26",
+        "importe": 36.02,
+        "fecha_vencimiento": "1993-07-19",
+        "fecha_pago": "1988-08-27"
+      }
+    ]
+  },
+  {
+    "nro_socio": 604908,
+    "nombre": "Avila",
+    "apellido": "Blackburn",
+    "direccion": "58 Ocean Avenue, Wauhillau, Nebraska",
+    "deportes": [
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1988-11-15",
+        "importe": 34.05,
+        "fecha_vencimiento": "1993-05-20",
+        "fecha_pago": "1988-05-02"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1991-03-30",
+        "importe": 37.92,
+        "fecha_vencimiento": "1989-05-02",
+        "fecha_pago": "1994-09-16"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1994-04-19",
+        "importe": 47.99,
+        "fecha_vencimiento": "1994-01-12",
+        "fecha_pago": "1994-04-02"
+      }
+    ]
+  },
+  {
+    "nro_socio": 380833,
+    "nombre": "Foreman",
+    "apellido": "Miranda",
+    "direccion": "21 Dahill Road, Cressey, Virgin Islands",
+    "deportes": [
+      "TENNIS",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1990-07-03",
+        "importe": 40.19,
+        "fecha_vencimiento": "1991-04-29",
+        "fecha_pago": "1993-12-10"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1990-12-15",
+        "importe": 15.76,
+        "fecha_vencimiento": "1988-05-25",
+        "fecha_pago": "1993-03-20"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1990-11-07",
+        "importe": 44.66,
+        "fecha_vencimiento": "1994-06-28",
+        "fecha_pago": "1990-09-16"
+      }
+    ]
+  },
+  {
+    "nro_socio": 609097,
+    "nombre": "Grant",
+    "apellido": "Singleton",
+    "direccion": "35 Ellery Street, Cade, Maine",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1988-12-14",
+        "importe": 28.04,
+        "fecha_vencimiento": "1994-11-10",
+        "fecha_pago": "1991-10-20"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1990-07-01",
+        "importe": 30.58,
+        "fecha_vencimiento": "1993-06-14",
+        "fecha_pago": "1990-04-11"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1990-09-15",
+        "importe": 32.02,
+        "fecha_vencimiento": "1994-04-13",
+        "fecha_pago": "1994-03-23"
+      }
+    ]
+  },
+  {
+    "nro_socio": 177095,
+    "nombre": "Andrea",
+    "apellido": "Peters",
+    "direccion": "77 Richmond Street, Tuttle, Florida",
+    "deportes": [
+      "TENNIS",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1990-10-31",
+        "importe": 45.49,
+        "fecha_vencimiento": "1992-07-31",
+        "fecha_pago": "1990-11-23"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1989-01-04",
+        "importe": 11.74,
+        "fecha_vencimiento": "1992-09-24",
+        "fecha_pago": "1992-11-14"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1994-12-22",
+        "importe": 39.41,
+        "fecha_vencimiento": "1994-08-04",
+        "fecha_pago": "1992-04-23"
+      }
+    ]
+  },
+  {
+    "nro_socio": 199725,
+    "nombre": "Maryellen",
+    "apellido": "Olson",
+    "direccion": "61 Eastern Parkway, Coldiron, Alabama",
+    "deportes": [
+      "RUGBY",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1991-01-10",
+        "importe": 33.46,
+        "fecha_vencimiento": "1992-12-09",
+        "fecha_pago": "1991-01-15"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1988-03-15",
+        "importe": 39.28,
+        "fecha_vencimiento": "1991-03-06",
+        "fecha_pago": "1990-01-30"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1990-12-04",
+        "importe": 45.58,
+        "fecha_vencimiento": "1990-06-17",
+        "fecha_pago": "1990-08-05"
+      }
+    ]
+  },
+  {
+    "nro_socio": 679256,
+    "nombre": "Holman",
+    "apellido": "Kent",
+    "direccion": "30 Bedford Avenue, Robbins, Rhode Island",
+    "deportes": [
+      "GOLF",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1991-03-14",
+        "importe": 38.88,
+        "fecha_vencimiento": "1993-06-14",
+        "fecha_pago": "1994-11-28"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1990-01-20",
+        "importe": 22.95,
+        "fecha_vencimiento": "1989-07-23",
+        "fecha_pago": "1994-05-11"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1994-06-06",
+        "importe": 34.36,
+        "fecha_vencimiento": "1989-09-12",
+        "fecha_pago": "1990-12-05"
+      }
+    ]
+  },
+  {
+    "nro_socio": 996491,
+    "nombre": "Mathis",
+    "apellido": "Patterson",
+    "direccion": "23 Commerce Street, Oretta, Washington",
+    "deportes": [
+      "TENNIS",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1993-01-04",
+        "importe": 44.07,
+        "fecha_vencimiento": "1988-08-06",
+        "fecha_pago": "1992-03-14"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1992-09-23",
+        "importe": 17.01,
+        "fecha_vencimiento": "1993-07-21",
+        "fecha_pago": "1994-04-24"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1990-12-21",
+        "importe": 49.35,
+        "fecha_vencimiento": "1988-09-13",
+        "fecha_pago": "1990-02-01"
+      }
+    ]
+  },
+  {
+    "nro_socio": 378481,
+    "nombre": "Holmes",
+    "apellido": "Rush",
+    "direccion": "6 Wyckoff Street, Martell, West Virginia",
+    "deportes": [
+      "CESTO BALL",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1988-02-24",
+        "importe": 25.88,
+        "fecha_vencimiento": "1990-06-06",
+        "fecha_pago": "1991-11-23"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1988-09-30",
+        "importe": 32.34,
+        "fecha_vencimiento": "1994-03-09",
+        "fecha_pago": "1994-11-20"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1991-04-19",
+        "importe": 13.89,
+        "fecha_vencimiento": "1991-02-02",
+        "fecha_pago": "1990-06-15"
+      }
+    ]
+  },
+  {
+    "nro_socio": 686562,
+    "nombre": "Velazquez",
+    "apellido": "Roman",
+    "direccion": "77 Kiely Place, Lindisfarne, Northern Mariana Islands",
+    "deportes": [
+      "RUGBY",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1991-02-19",
+        "importe": 26.82,
+        "fecha_vencimiento": "1990-07-21",
+        "fecha_pago": "1993-02-28"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1988-03-23",
+        "importe": 13.02,
+        "fecha_vencimiento": "1988-10-05",
+        "fecha_pago": "1993-01-26"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1989-04-02",
+        "importe": 13.58,
+        "fecha_vencimiento": "1990-01-07",
+        "fecha_pago": "1993-09-03"
+      }
+    ]
+  },
+  {
+    "nro_socio": 102668,
+    "nombre": "Kathryn",
+    "apellido": "Downs",
+    "direccion": "16 Little Street, Darrtown, New Jersey",
+    "deportes": [
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1992-12-15",
+        "importe": 10.29,
+        "fecha_vencimiento": "1994-09-30",
+        "fecha_pago": "1989-03-24"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1989-02-28",
+        "importe": 28.28,
+        "fecha_vencimiento": "1994-07-06",
+        "fecha_pago": "1991-11-29"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1992-01-31",
+        "importe": 26.36,
+        "fecha_vencimiento": "1994-02-27",
+        "fecha_pago": "1994-12-06"
+      }
+    ]
+  },
+  {
+    "nro_socio": 876415,
+    "nombre": "Mccarty",
+    "apellido": "Baldwin",
+    "direccion": "99 Pershing Loop, Canby, New York",
+    "deportes": [
+      "GOLF",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1989-02-18",
+        "importe": 47.04,
+        "fecha_vencimiento": "1990-04-21",
+        "fecha_pago": "1988-12-14"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1990-06-07",
+        "importe": 48.49,
+        "fecha_vencimiento": "1988-07-12",
+        "fecha_pago": "1988-08-26"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1988-04-19",
+        "importe": 42.59,
+        "fecha_vencimiento": "1990-02-08",
+        "fecha_pago": "1992-09-27"
+      }
+    ]
+  },
+  {
+    "nro_socio": 838582,
+    "nombre": "Campos",
+    "apellido": "England",
+    "direccion": "1 Abbey Court, Sterling, Hawaii",
+    "deportes": [
+      "CESTO BALL",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1988-06-21",
+        "importe": 24.96,
+        "fecha_vencimiento": "1994-08-02",
+        "fecha_pago": "1993-08-13"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1994-08-23",
+        "importe": 18.06,
+        "fecha_vencimiento": "1993-06-23",
+        "fecha_pago": "1988-04-16"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1991-03-10",
+        "importe": 15.12,
+        "fecha_vencimiento": "1993-09-28",
+        "fecha_pago": "1988-03-11"
+      }
+    ]
+  },
+  {
+    "nro_socio": 818711,
+    "nombre": "Lawanda",
+    "apellido": "Wyatt",
+    "direccion": "55 Lawton Street, Wolcott, Minnesota",
+    "deportes": [
+      "RUGBY",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1991-01-21",
+        "importe": 34.12,
+        "fecha_vencimiento": "1991-06-02",
+        "fecha_pago": "1992-07-20"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1988-09-08",
+        "importe": 16.81,
+        "fecha_vencimiento": "1988-10-03",
+        "fecha_pago": "1992-05-08"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1994-05-15",
+        "importe": 13.84,
+        "fecha_vencimiento": "1994-01-05",
+        "fecha_pago": "1993-05-03"
+      }
+    ]
+  },
+  {
+    "nro_socio": 520512,
+    "nombre": "Miranda",
+    "apellido": "Harper",
+    "direccion": "9 Church Avenue, Grantville, North Carolina",
+    "deportes": [
+      "CESTO BALL",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1990-07-01",
+        "importe": 29.14,
+        "fecha_vencimiento": "1990-03-01",
+        "fecha_pago": "1989-06-05"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1988-12-23",
+        "importe": 13.43,
+        "fecha_vencimiento": "1993-12-28",
+        "fecha_pago": "1992-09-21"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1991-11-30",
+        "importe": 45.43,
+        "fecha_vencimiento": "1988-11-15",
+        "fecha_pago": "1990-01-30"
+      }
+    ]
+  },
+  {
+    "nro_socio": 148243,
+    "nombre": "Koch",
+    "apellido": "Ferrell",
+    "direccion": "28 Covert Street, Turah, Utah",
+    "deportes": [
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1988-02-19",
+        "importe": 35.06,
+        "fecha_vencimiento": "1991-05-31",
+        "fecha_pago": "1988-03-18"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1992-05-30",
+        "importe": 45.85,
+        "fecha_vencimiento": "1991-03-11",
+        "fecha_pago": "1994-09-04"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1993-04-08",
+        "importe": 24.31,
+        "fecha_vencimiento": "1994-10-27",
+        "fecha_pago": "1988-11-20"
+      }
+    ]
+  },
+  {
+    "nro_socio": 998239,
+    "nombre": "Olson",
+    "apellido": "Strickland",
+    "direccion": "95 Oakland Place, Whitehaven, Arizona",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1991-07-14",
+        "importe": 11.58,
+        "fecha_vencimiento": "1992-08-10",
+        "fecha_pago": "1990-05-26"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1992-06-20",
+        "importe": 20.34,
+        "fecha_vencimiento": "1992-04-03",
+        "fecha_pago": "1991-05-18"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1993-08-18",
+        "importe": 30.61,
+        "fecha_vencimiento": "1992-09-15",
+        "fecha_pago": "1992-02-10"
+      }
+    ]
+  },
+  {
+    "nro_socio": 636882,
+    "nombre": "Tameka",
+    "apellido": "Frye",
+    "direccion": "10 Brigham Street, Chamberino, Michigan",
+    "deportes": [
+      "GOLF",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1990-11-28",
+        "importe": 45.03,
+        "fecha_vencimiento": "1989-04-15",
+        "fecha_pago": "1991-06-05"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1989-04-05",
+        "importe": 10.96,
+        "fecha_vencimiento": "1992-09-21",
+        "fecha_pago": "1992-09-27"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1989-03-13",
+        "importe": 16.16,
+        "fecha_vencimiento": "1993-07-26",
+        "fecha_pago": "1988-12-15"
+      }
+    ]
+  },
+  {
+    "nro_socio": 866833,
+    "nombre": "Bettye",
+    "apellido": "Beck",
+    "direccion": "68 Union Street, Berlin, Pennsylvania",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1990-09-16",
+        "importe": 34.28,
+        "fecha_vencimiento": "1993-10-10",
+        "fecha_pago": "1988-07-07"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1994-12-05",
+        "importe": 10.72,
+        "fecha_vencimiento": "1988-03-24",
+        "fecha_pago": "1990-07-14"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1994-01-31",
+        "importe": 29.81,
+        "fecha_vencimiento": "1992-11-15",
+        "fecha_pago": "1990-04-04"
+      }
+    ]
+  },
+  {
+    "nro_socio": 482475,
+    "nombre": "Bentley",
+    "apellido": "Kaufman",
+    "direccion": "51 Madison Street, Magnolia, Wisconsin",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1989-05-18",
+        "importe": 42.14,
+        "fecha_vencimiento": "1994-11-30",
+        "fecha_pago": "1994-09-24"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1994-04-08",
+        "importe": 38.04,
+        "fecha_vencimiento": "1994-06-01",
+        "fecha_pago": "1994-02-10"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1990-10-10",
+        "importe": 13.57,
+        "fecha_vencimiento": "1992-07-31",
+        "fecha_pago": "1993-01-15"
+      }
+    ]
+  },
+  {
+    "nro_socio": 147306,
+    "nombre": "Cecelia",
+    "apellido": "Wallace",
+    "direccion": "50 Sackett Street, Finderne, Marshall Islands",
+    "deportes": [
+      "RUGBY",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1994-03-31",
+        "importe": 34.91,
+        "fecha_vencimiento": "1988-04-05",
+        "fecha_pago": "1988-03-19"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1994-07-06",
+        "importe": 13.49,
+        "fecha_vencimiento": "1988-10-05",
+        "fecha_pago": "1991-08-03"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1992-05-01",
+        "importe": 14.19,
+        "fecha_vencimiento": "1992-11-26",
+        "fecha_pago": "1993-04-01"
+      }
+    ]
+  },
+  {
+    "nro_socio": 720551,
+    "nombre": "Odom",
+    "apellido": "Klein",
+    "direccion": "99 Woods Place, Greenbush, Kansas",
+    "deportes": [
+      "TENNIS",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1988-06-25",
+        "importe": 46.89,
+        "fecha_vencimiento": "1993-07-29",
+        "fecha_pago": "1989-07-03"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1989-06-25",
+        "importe": 28.43,
+        "fecha_vencimiento": "1988-03-30",
+        "fecha_pago": "1994-10-11"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1993-03-18",
+        "importe": 15.75,
+        "fecha_vencimiento": "1994-04-24",
+        "fecha_pago": "1993-09-25"
+      }
+    ]
+  },
+  {
+    "nro_socio": 596089,
+    "nombre": "Rebekah",
+    "apellido": "Benson",
+    "direccion": "90 Lake Avenue, Allensworth, New Hampshire",
+    "deportes": [
+      "GOLF",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1991-10-12",
+        "importe": 32.64,
+        "fecha_vencimiento": "1990-04-28",
+        "fecha_pago": "1990-11-07"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1991-02-13",
+        "importe": 29.82,
+        "fecha_vencimiento": "1994-07-14",
+        "fecha_pago": "1991-01-28"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1994-06-13",
+        "importe": 30.48,
+        "fecha_vencimiento": "1994-10-02",
+        "fecha_pago": "1990-01-28"
+      }
+    ]
+  },
+  {
+    "nro_socio": 233014,
+    "nombre": "Patrica",
+    "apellido": "House",
+    "direccion": "49 Kossuth Place, Waukeenah, Ohio",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1990-06-27",
+        "importe": 26.41,
+        "fecha_vencimiento": "1992-10-31",
+        "fecha_pago": "1991-01-23"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1993-11-24",
+        "importe": 10.92,
+        "fecha_vencimiento": "1994-09-21",
+        "fecha_pago": "1991-02-16"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1992-03-21",
+        "importe": 13.32,
+        "fecha_vencimiento": "1989-02-11",
+        "fecha_pago": "1990-06-18"
+      }
+    ]
+  },
+  {
+    "nro_socio": 877548,
+    "nombre": "Gillespie",
+    "apellido": "Casey",
+    "direccion": "4 Jardine Place, Gorham, South Carolina",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1990-11-18",
+        "importe": 43.29,
+        "fecha_vencimiento": "1990-10-26",
+        "fecha_pago": "1994-03-08"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1991-08-06",
+        "importe": 23.85,
+        "fecha_vencimiento": "1993-08-25",
+        "fecha_pago": "1991-01-09"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1993-08-26",
+        "importe": 27.38,
+        "fecha_vencimiento": "1993-12-10",
+        "fecha_pago": "1989-02-20"
+      }
+    ]
+  },
+  {
+    "nro_socio": 257463,
+    "nombre": "Young",
+    "apellido": "Rogers",
+    "direccion": "90 Polhemus Place, Suitland, Georgia",
+    "deportes": [
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1994-12-28",
+        "importe": 35.99,
+        "fecha_vencimiento": "1988-08-26",
+        "fecha_pago": "1992-02-27"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1994-05-22",
+        "importe": 10.78,
+        "fecha_vencimiento": "1989-09-06",
+        "fecha_pago": "1993-10-19"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1989-11-09",
+        "importe": 49.17,
+        "fecha_vencimiento": "1990-03-03",
+        "fecha_pago": "1992-11-22"
+      }
+    ]
+  },
+  {
+    "nro_socio": 387084,
+    "nombre": "Hahn",
+    "apellido": "Madden",
+    "direccion": "37 Bergen Street, Englevale, Tennessee",
+    "deportes": [
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1993-07-12",
+        "importe": 26.65,
+        "fecha_vencimiento": "1994-10-10",
+        "fecha_pago": "1989-05-05"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1990-04-09",
+        "importe": 14.58,
+        "fecha_vencimiento": "1989-07-01",
+        "fecha_pago": "1991-03-25"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1989-02-27",
+        "importe": 17.09,
+        "fecha_vencimiento": "1993-07-12",
+        "fecha_pago": "1993-05-04"
+      }
+    ]
+  },
+  {
+    "nro_socio": 340127,
+    "nombre": "Henson",
+    "apellido": "Hobbs",
+    "direccion": "80 Graham Avenue, Kenwood, Mississippi",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1988-05-19",
+        "importe": 12.57,
+        "fecha_vencimiento": "1993-05-26",
+        "fecha_pago": "1990-02-25"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1992-06-16",
+        "importe": 12.72,
+        "fecha_vencimiento": "1988-05-07",
+        "fecha_pago": "1992-03-08"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1988-04-24",
+        "importe": 34.58,
+        "fecha_vencimiento": "1993-01-03",
+        "fecha_pago": "1991-06-26"
+      }
+    ]
+  },
+  {
+    "nro_socio": 904074,
+    "nombre": "Gwendolyn",
+    "apellido": "Fitzgerald",
+    "direccion": "5 Chestnut Street, Northridge, North Dakota",
+    "deportes": [
+      "CESTO BALL",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1991-09-19",
+        "importe": 46.53,
+        "fecha_vencimiento": "1989-12-18",
+        "fecha_pago": "1991-07-23"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1988-11-16",
+        "importe": 25.26,
+        "fecha_vencimiento": "1991-05-16",
+        "fecha_pago": "1991-06-08"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1991-09-19",
+        "importe": 41.23,
+        "fecha_vencimiento": "1993-05-29",
+        "fecha_pago": "1991-12-13"
+      }
+    ]
+  },
+  {
+    "nro_socio": 313878,
+    "nombre": "Wells",
+    "apellido": "Richards",
+    "direccion": "33 Clermont Avenue, Goldfield, American Samoa",
+    "deportes": [
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1994-04-25",
+        "importe": 20.42,
+        "fecha_vencimiento": "1990-10-17",
+        "fecha_pago": "1988-08-10"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1991-06-08",
+        "importe": 41.17,
+        "fecha_vencimiento": "1993-07-31",
+        "fecha_pago": "1991-10-29"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1992-10-15",
+        "importe": 39.65,
+        "fecha_vencimiento": "1991-04-12",
+        "fecha_pago": "1988-05-21"
+      }
+    ]
+  },
+  {
+    "nro_socio": 178891,
+    "nombre": "Brigitte",
+    "apellido": "Fletcher",
+    "direccion": "15 Broome Street, Savannah, Idaho",
+    "deportes": [
+      "CESTO BALL",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1993-10-21",
+        "importe": 38.54,
+        "fecha_vencimiento": "1992-07-14",
+        "fecha_pago": "1991-08-05"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1990-09-28",
+        "importe": 37.93,
+        "fecha_vencimiento": "1992-06-28",
+        "fecha_pago": "1994-09-05"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1990-05-06",
+        "importe": 24.43,
+        "fecha_vencimiento": "1990-09-06",
+        "fecha_pago": "1993-11-27"
+      }
+    ]
+  },
+  {
+    "nro_socio": 483794,
+    "nombre": "Kasey",
+    "apellido": "Gallagher",
+    "direccion": "91 Brooklyn Road, Blairstown, Vermont",
+    "deportes": [
+      "GOLF",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1992-08-19",
+        "importe": 43.08,
+        "fecha_vencimiento": "1988-08-23",
+        "fecha_pago": "1988-06-19"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1991-11-24",
+        "importe": 27.68,
+        "fecha_vencimiento": "1990-07-05",
+        "fecha_pago": "1988-02-12"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1993-01-29",
+        "importe": 29.06,
+        "fecha_vencimiento": "1992-02-19",
+        "fecha_pago": "1988-02-08"
+      }
+    ]
+  },
+  {
+    "nro_socio": 546092,
+    "nombre": "Cunningham",
+    "apellido": "Dennis",
+    "direccion": "3 Butler Street, Deseret, California",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1992-03-31",
+        "importe": 42.21,
+        "fecha_vencimiento": "1993-03-10",
+        "fecha_pago": "1989-07-09"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1988-10-09",
+        "importe": 47.73,
+        "fecha_vencimiento": "1994-11-25",
+        "fecha_pago": "1988-02-07"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1989-05-16",
+        "importe": 40.19,
+        "fecha_vencimiento": "1991-10-07",
+        "fecha_pago": "1988-11-01"
+      }
+    ]
+  },
+  {
+    "nro_socio": 350409,
+    "nombre": "Rios",
+    "apellido": "Mckinney",
+    "direccion": "49 Hubbard Street, Galesville, Guam",
+    "deportes": [
+      "GOLF",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1991-12-29",
+        "importe": 47.17,
+        "fecha_vencimiento": "1989-06-05",
+        "fecha_pago": "1988-10-02"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1994-03-22",
+        "importe": 39.17,
+        "fecha_vencimiento": "1990-09-22",
+        "fecha_pago": "1991-06-01"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1993-11-04",
+        "importe": 45.42,
+        "fecha_vencimiento": "1991-09-16",
+        "fecha_pago": "1992-05-18"
+      }
+    ]
+  },
+  {
+    "nro_socio": 405775,
+    "nombre": "Lauren",
+    "apellido": "Robertson",
+    "direccion": "61 Laurel Avenue, Callaghan, Oklahoma",
+    "deportes": [
+      "RUGBY",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1993-01-04",
+        "importe": 17.07,
+        "fecha_vencimiento": "1989-04-22",
+        "fecha_pago": "1993-02-22"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1994-05-11",
+        "importe": 16.15,
+        "fecha_vencimiento": "1993-06-12",
+        "fecha_pago": "1990-12-18"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1992-06-02",
+        "importe": 35.76,
+        "fecha_vencimiento": "1990-05-27",
+        "fecha_pago": "1990-07-28"
+      }
+    ]
+  },
+  {
+    "nro_socio": 260932,
+    "nombre": "Fox",
+    "apellido": "Shaffer",
+    "direccion": "62 Cass Place, Dotsero, Puerto Rico",
+    "deportes": [
+      "GOLF",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1988-07-19",
+        "importe": 43.79,
+        "fecha_vencimiento": "1988-09-17",
+        "fecha_pago": "1994-10-26"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1988-11-07",
+        "importe": 45.73,
+        "fecha_vencimiento": "1994-12-21",
+        "fecha_pago": "1993-08-15"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1991-10-13",
+        "importe": 35.49,
+        "fecha_vencimiento": "1988-12-11",
+        "fecha_pago": "1993-05-14"
+      }
+    ]
+  },
+  {
+    "nro_socio": 409135,
+    "nombre": "Hawkins",
+    "apellido": "Harrison",
+    "direccion": "27 Highlawn Avenue, Shindler, Illinois",
+    "deportes": [
+      "CESTO BALL",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1991-12-31",
+        "importe": 39.91,
+        "fecha_vencimiento": "1991-10-27",
+        "fecha_pago": "1994-01-21"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1994-05-12",
+        "importe": 48.18,
+        "fecha_vencimiento": "1988-11-19",
+        "fecha_pago": "1992-11-06"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1989-07-26",
+        "importe": 10.95,
+        "fecha_vencimiento": "1990-02-01",
+        "fecha_pago": "1988-01-07"
+      }
+    ]
+  },
+  {
+    "nro_socio": 585983,
+    "nombre": "Rita",
+    "apellido": "Ellison",
+    "direccion": "56 Grand Avenue, Mooresburg, Oregon",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1990-08-05",
+        "importe": 20.39,
+        "fecha_vencimiento": "1988-03-18",
+        "fecha_pago": "1990-03-31"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1988-03-10",
+        "importe": 42.86,
+        "fecha_vencimiento": "1988-10-20",
+        "fecha_pago": "1994-10-31"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1988-08-16",
+        "importe": 24.95,
+        "fecha_vencimiento": "1990-07-19",
+        "fecha_pago": "1989-05-23"
+      }
+    ]
+  },
+  {
+    "nro_socio": 898980,
+    "nombre": "Hobbs",
+    "apellido": "Mcclure",
+    "direccion": "51 Dooley Street, Sylvanite, Virginia",
+    "deportes": [
+      "RUGBY",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1993-07-10",
+        "importe": 16.01,
+        "fecha_vencimiento": "1992-06-14",
+        "fecha_pago": "1989-06-29"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1989-01-16",
+        "importe": 40.87,
+        "fecha_vencimiento": "1992-11-25",
+        "fecha_pago": "1993-09-04"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1991-11-05",
+        "importe": 29.58,
+        "fecha_vencimiento": "1991-03-21",
+        "fecha_pago": "1989-05-05"
+      }
+    ]
+  },
+  {
+    "nro_socio": 849542,
+    "nombre": "Wanda",
+    "apellido": "Knapp",
+    "direccion": "11 Hull Street, Datil, Arkansas",
+    "deportes": [
+      "RUGBY",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1992-10-15",
+        "importe": 26.15,
+        "fecha_vencimiento": "1994-05-12",
+        "fecha_pago": "1991-08-13"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1992-01-27",
+        "importe": 13.23,
+        "fecha_vencimiento": "1991-09-23",
+        "fecha_pago": "1992-10-25"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1992-11-20",
+        "importe": 11.94,
+        "fecha_vencimiento": "1993-08-22",
+        "fecha_pago": "1989-11-25"
+      }
+    ]
+  },
+  {
+    "nro_socio": 400412,
+    "nombre": "Alba",
+    "apellido": "Morgan",
+    "direccion": "38 Riverdale Avenue, Winchester, Colorado",
+    "deportes": [
+      "TENNIS",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1994-03-04",
+        "importe": 30.93,
+        "fecha_vencimiento": "1989-11-02",
+        "fecha_pago": "1994-12-18"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1990-08-08",
+        "importe": 27.42,
+        "fecha_vencimiento": "1991-09-23",
+        "fecha_pago": "1991-03-13"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1991-11-25",
+        "importe": 46.66,
+        "fecha_vencimiento": "1992-05-15",
+        "fecha_pago": "1993-11-17"
+      }
+    ]
+  },
+  {
+    "nro_socio": 729332,
+    "nombre": "Cervantes",
+    "apellido": "Vang",
+    "direccion": "9 Debevoise Avenue, Lutsen, Federated States Of Micronesia",
+    "deportes": [
+      "RUGBY",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1991-08-10",
+        "importe": 24.19,
+        "fecha_vencimiento": "1992-04-17",
+        "fecha_pago": "1994-07-01"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1991-09-30",
+        "importe": 10.25,
+        "fecha_vencimiento": "1993-09-26",
+        "fecha_pago": "1988-08-17"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1989-06-03",
+        "importe": 28.39,
+        "fecha_vencimiento": "1989-01-20",
+        "fecha_pago": "1993-05-23"
+      }
+    ]
+  },
+  {
+    "nro_socio": 953650,
+    "nombre": "Gregory",
+    "apellido": "Rios",
+    "direccion": "91 Doscher Street, Chaparrito, Connecticut",
+    "deportes": [
+      "GOLF",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1990-11-05",
+        "importe": 19.08,
+        "fecha_vencimiento": "1990-05-06",
+        "fecha_pago": "1993-08-17"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1989-09-15",
+        "importe": 17.13,
+        "fecha_vencimiento": "1989-04-17",
+        "fecha_pago": "1993-10-24"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1988-08-08",
+        "importe": 16.85,
+        "fecha_vencimiento": "1994-12-27",
+        "fecha_pago": "1988-12-04"
+      }
+    ]
+  },
+  {
+    "nro_socio": 452436,
+    "nombre": "Therese",
+    "apellido": "Burton",
+    "direccion": "5 Schenck Street, Woodlake, Missouri",
+    "deportes": [
+      "GOLF",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1993-02-04",
+        "importe": 13.92,
+        "fecha_vencimiento": "1993-03-11",
+        "fecha_pago": "1992-02-15"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1993-02-19",
+        "importe": 43.27,
+        "fecha_vencimiento": "1993-02-10",
+        "fecha_pago": "1991-07-04"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1989-02-21",
+        "importe": 30.15,
+        "fecha_vencimiento": "1992-06-17",
+        "fecha_pago": "1989-11-21"
+      }
+    ]
+  },
+  {
+    "nro_socio": 941461,
+    "nombre": "Mills",
+    "apellido": "Moss",
+    "direccion": "79 Columbus Place, Wakulla, Montana",
+    "deportes": [
+      "RUGBY",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1993-10-11",
+        "importe": 20.53,
+        "fecha_vencimiento": "1992-03-22",
+        "fecha_pago": "1993-11-02"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1992-08-19",
+        "importe": 23.97,
+        "fecha_vencimiento": "1994-04-18",
+        "fecha_pago": "1992-07-04"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1991-08-01",
+        "importe": 16.31,
+        "fecha_vencimiento": "1989-11-19",
+        "fecha_pago": "1993-01-20"
+      }
+    ]
+  },
+  {
+    "nro_socio": 442751,
+    "nombre": "Brady",
+    "apellido": "Duke",
+    "direccion": "50 Neptune Court, Hickory, Massachusetts",
+    "deportes": [
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1991-05-07",
+        "importe": 12.51,
+        "fecha_vencimiento": "1988-09-04",
+        "fecha_pago": "1988-03-13"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1994-11-22",
+        "importe": 40.07,
+        "fecha_vencimiento": "1988-10-25",
+        "fecha_pago": "1993-10-23"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1989-11-09",
+        "importe": 19.41,
+        "fecha_vencimiento": "1990-10-14",
+        "fecha_pago": "1992-04-02"
+      }
+    ]
+  },
+  {
+    "nro_socio": 968287,
+    "nombre": "Carlson",
+    "apellido": "Puckett",
+    "direccion": "48 Fuller Place, Chestnut, Iowa",
+    "deportes": [
+      "GOLF",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1993-03-05",
+        "importe": 18.06,
+        "fecha_vencimiento": "1988-10-24",
+        "fecha_pago": "1994-08-26"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1990-10-10",
+        "importe": 10.54,
+        "fecha_vencimiento": "1991-10-11",
+        "fecha_pago": "1993-02-17"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1989-05-15",
+        "importe": 17.35,
+        "fecha_vencimiento": "1992-07-06",
+        "fecha_pago": "1988-03-28"
+      }
+    ]
+  },
+  {
+    "nro_socio": 556674,
+    "nombre": "Melody",
+    "apellido": "Mercer",
+    "direccion": "12 Lyme Avenue, Chesapeake, Maryland",
+    "deportes": [
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1994-08-07",
+        "importe": 25.64,
+        "fecha_vencimiento": "1989-03-01",
+        "fecha_pago": "1988-11-20"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1988-10-17",
+        "importe": 33.24,
+        "fecha_vencimiento": "1994-08-08",
+        "fecha_pago": "1991-06-30"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1993-08-09",
+        "importe": 36.27,
+        "fecha_vencimiento": "1993-12-24",
+        "fecha_pago": "1994-01-06"
+      }
+    ]
+  },
+  {
+    "nro_socio": 495524,
+    "nombre": "Howard",
+    "apellido": "Perez",
+    "direccion": "58 Poly Place, Weogufka, Texas",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1994-08-12",
+        "importe": 15.02,
+        "fecha_vencimiento": "1989-03-15",
+        "fecha_pago": "1992-04-25"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1993-08-14",
+        "importe": 43.52,
+        "fecha_vencimiento": "1988-11-23",
+        "fecha_pago": "1988-06-13"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1988-07-30",
+        "importe": 42.75,
+        "fecha_vencimiento": "1988-04-14",
+        "fecha_pago": "1990-09-10"
+      }
+    ]
+  },
+  {
+    "nro_socio": 932073,
+    "nombre": "Hays",
+    "apellido": "Grant",
+    "direccion": "35 Baughman Place, Witmer, Wyoming",
+    "deportes": [
+      "CESTO BALL",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1993-07-15",
+        "importe": 48.37,
+        "fecha_vencimiento": "1990-01-27",
+        "fecha_pago": "1993-03-29"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1991-09-21",
+        "importe": 34.87,
+        "fecha_vencimiento": "1994-10-05",
+        "fecha_pago": "1989-05-09"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1991-01-25",
+        "importe": 32.33,
+        "fecha_vencimiento": "1994-04-28",
+        "fecha_pago": "1989-05-07"
+      }
+    ]
+  },
+  {
+    "nro_socio": 780071,
+    "nombre": "Randolph",
+    "apellido": "Scott",
+    "direccion": "83 Winthrop Street, Stouchsburg, Delaware",
+    "deportes": [
+      "TENNIS",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1991-04-13",
+        "importe": 15.28,
+        "fecha_vencimiento": "1994-10-12",
+        "fecha_pago": "1992-08-20"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1989-04-20",
+        "importe": 26.75,
+        "fecha_vencimiento": "1992-07-03",
+        "fecha_pago": "1991-10-08"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1992-09-11",
+        "importe": 32.75,
+        "fecha_vencimiento": "1993-12-27",
+        "fecha_pago": "1988-11-30"
+      }
+    ]
+  },
+  {
+    "nro_socio": 270080,
+    "nombre": "Florine",
+    "apellido": "Ballard",
+    "direccion": "83 Waldane Court, Foscoe, District Of Columbia",
+    "deportes": [
+      "GOLF",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1991-02-25",
+        "importe": 26.84,
+        "fecha_vencimiento": "1990-06-21",
+        "fecha_pago": "1994-07-06"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1990-07-22",
+        "importe": 40.29,
+        "fecha_vencimiento": "1994-03-15",
+        "fecha_pago": "1994-11-07"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1994-03-09",
+        "importe": 11.95,
+        "fecha_vencimiento": "1991-11-16",
+        "fecha_pago": "1992-11-16"
+      }
+    ]
+  },
+  {
+    "nro_socio": 350944,
+    "nombre": "Gena",
+    "apellido": "Mathews",
+    "direccion": "38 Bulwer Place, Lindcove, Nevada",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1989-05-21",
+        "importe": 16.11,
+        "fecha_vencimiento": "1994-04-09",
+        "fecha_pago": "1990-12-23"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1992-04-01",
+        "importe": 16.88,
+        "fecha_vencimiento": "1991-04-08",
+        "fecha_pago": "1992-10-18"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1994-02-06",
+        "importe": 45.46,
+        "fecha_vencimiento": "1990-09-03",
+        "fecha_pago": "1992-10-11"
+      }
+    ]
+  },
+  {
+    "nro_socio": 629284,
+    "nombre": "Effie",
+    "apellido": "Francis",
+    "direccion": "27 Irvington Place, Fivepointville, South Dakota",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1994-06-30",
+        "importe": 32.09,
+        "fecha_vencimiento": "1988-07-21",
+        "fecha_pago": "1994-05-26"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1991-05-02",
+        "importe": 26.19,
+        "fecha_vencimiento": "1993-01-06",
+        "fecha_pago": "1990-03-16"
+      },
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1988-12-19",
+        "importe": 32.27,
+        "fecha_vencimiento": "1994-07-01",
+        "fecha_pago": "1992-05-08"
+      }
+    ]
+  },
+  {
+    "nro_socio": 140931,
+    "nombre": "Bonner",
+    "apellido": "Diaz",
+    "direccion": "30 McClancy Place, Boomer, New Mexico",
+    "deportes": [
+      "GOLF",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1994-07-24",
+        "importe": 49.46,
+        "fecha_vencimiento": "1993-08-17",
+        "fecha_pago": "1992-01-25"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1991-02-14",
+        "importe": 40.48,
+        "fecha_vencimiento": "1989-04-28",
+        "fecha_pago": "1994-02-07"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1992-11-09",
+        "importe": 14.96,
+        "fecha_vencimiento": "1988-03-07",
+        "fecha_pago": "1991-10-02"
+      }
+    ]
+  },
+  {
+    "nro_socio": 676116,
+    "nombre": "Fowler",
+    "apellido": "Beard",
+    "direccion": "56 Amber Street, Layhill, Alaska",
+    "deportes": [
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1991-01-23",
+        "importe": 43.93,
+        "fecha_vencimiento": "1989-03-06",
+        "fecha_pago": "1993-01-07"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1994-02-01",
+        "importe": 38.76,
+        "fecha_vencimiento": "1988-06-20",
+        "fecha_pago": "1990-02-17"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1990-10-07",
+        "importe": 13.05,
+        "fecha_vencimiento": "1994-05-15",
+        "fecha_pago": "1989-03-15"
+      }
+    ]
+  },
+  {
+    "nro_socio": 752024,
+    "nombre": "Dixie",
+    "apellido": "Montgomery",
+    "direccion": "88 Newport Street, Leroy, Louisiana",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1989-12-09",
+        "importe": 15.33,
+        "fecha_vencimiento": "1989-04-04",
+        "fecha_pago": "1992-12-14"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1991-05-23",
+        "importe": 41.28,
+        "fecha_vencimiento": "1992-12-30",
+        "fecha_pago": "1992-12-27"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1989-02-16",
+        "importe": 28.87,
+        "fecha_vencimiento": "1989-03-14",
+        "fecha_pago": "1994-04-05"
+      }
+    ]
+  },
+  {
+    "nro_socio": 642981,
+    "nombre": "Pat",
+    "apellido": "Sheppard",
+    "direccion": "40 Cortelyou Road, Steinhatchee, Indiana",
+    "deportes": [
+      "GOLF",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1988-07-13",
+        "importe": 46.55,
+        "fecha_vencimiento": "1988-06-02",
+        "fecha_pago": "1989-04-21"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1994-01-18",
+        "importe": 12.24,
+        "fecha_vencimiento": "1990-01-11",
+        "fecha_pago": "1993-12-01"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1992-02-21",
+        "importe": 36.38,
+        "fecha_vencimiento": "1989-01-03",
+        "fecha_pago": "1988-11-21"
+      }
+    ]
+  },
+  {
+    "nro_socio": 494196,
+    "nombre": "Larsen",
+    "apellido": "Keller",
+    "direccion": "10 Garden Street, Itmann, Palau",
+    "deportes": [
+      "CESTO BALL",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1989-03-16",
+        "importe": 35.51,
+        "fecha_vencimiento": "1994-04-05",
+        "fecha_pago": "1993-06-26"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1988-11-29",
+        "importe": 14.11,
+        "fecha_vencimiento": "1988-12-28",
+        "fecha_pago": "1993-09-07"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1990-02-02",
+        "importe": 36.42,
+        "fecha_vencimiento": "1992-12-06",
+        "fecha_pago": "1993-01-05"
+      }
+    ]
+  },
+  {
+    "nro_socio": 506018,
+    "nombre": "Melanie",
+    "apellido": "Mathis",
+    "direccion": "41 Eldert Lane, Wildwood, Kentucky",
+    "deportes": [
+      "HOCKEY s/CESPED",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1991-02-23",
+        "importe": 37.73,
+        "fecha_vencimiento": "1989-03-26",
+        "fecha_pago": "1991-01-31"
+      },
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1990-10-19",
+        "importe": 44.47,
+        "fecha_vencimiento": "1992-06-12",
+        "fecha_pago": "1991-12-11"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1990-04-02",
+        "importe": 39.84,
+        "fecha_vencimiento": "1992-11-08",
+        "fecha_pago": "1991-01-10"
+      }
+    ]
+  },
+  {
+    "nro_socio": 546826,
+    "nombre": "Miller",
+    "apellido": "Wilder",
+    "direccion": "53 Hinckley Place, Glenbrook, Nebraska",
+    "deportes": [
+      "GOLF"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1988-11-19",
+        "importe": 30.75,
+        "fecha_vencimiento": "1990-03-28",
+        "fecha_pago": "1992-05-18"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1994-11-02",
+        "importe": 18.69,
+        "fecha_vencimiento": "1993-11-02",
+        "fecha_pago": "1990-09-28"
+      },
+      {
+        "nro_cuota": 0,
+        "fecha_emision": "1990-04-17",
+        "importe": 22.36,
+        "fecha_vencimiento": "1988-12-27",
+        "fecha_pago": "1994-05-12"
+      }
+    ]
+  },
+  {
+    "nro_socio": 466474,
+    "nombre": "Rene",
+    "apellido": "Guzman",
+    "direccion": "49 Jackson Street, Alleghenyville, Virgin Islands",
+    "deportes": [
+      "TENNIS",
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1991-11-15",
+        "importe": 42.33,
+        "fecha_vencimiento": "1993-12-11",
+        "fecha_pago": "1989-04-03"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1988-01-13",
+        "importe": 43.14,
+        "fecha_vencimiento": "1991-05-13",
+        "fecha_pago": "1990-09-18"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1988-09-16",
+        "importe": 42.54,
+        "fecha_vencimiento": "1989-12-07",
+        "fecha_pago": "1991-12-23"
+      }
+    ]
+  },
+  {
+    "nro_socio": 348387,
+    "nombre": "Ola",
+    "apellido": "Reed",
+    "direccion": "51 Lawrence Avenue, Finzel, Maine",
+    "deportes": [
+      "RUGBY",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1989-09-14",
+        "importe": 27.08,
+        "fecha_vencimiento": "1988-07-09",
+        "fecha_pago": "1994-12-23"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1994-12-25",
+        "importe": 38.12,
+        "fecha_vencimiento": "1989-03-04",
+        "fecha_pago": "1993-05-16"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1994-07-09",
+        "importe": 45.11,
+        "fecha_vencimiento": "1993-03-08",
+        "fecha_pago": "1988-06-18"
+      }
+    ]
+  },
+  {
+    "nro_socio": 799569,
+    "nombre": "Tucker",
+    "apellido": "Gibbs",
+    "direccion": "85 Hill Street, Edmund, Florida",
+    "deportes": [
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1988-06-17",
+        "importe": 12.44,
+        "fecha_vencimiento": "1988-02-29",
+        "fecha_pago": "1993-12-15"
+      },
+      {
+        "nro_cuota": 8,
+        "fecha_emision": "1990-04-06",
+        "importe": 35.96,
+        "fecha_vencimiento": "1989-03-19",
+        "fecha_pago": "1988-10-24"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1992-11-01",
+        "importe": 12.81,
+        "fecha_vencimiento": "1989-11-25",
+        "fecha_pago": "1990-06-26"
+      }
+    ]
+  },
+  {
+    "nro_socio": 777068,
+    "nombre": "Angie",
+    "apellido": "Le",
+    "direccion": "46 Miami Court, Genoa, Alabama",
+    "deportes": [
+      "CESTO BALL"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1988-03-30",
+        "importe": 38.83,
+        "fecha_vencimiento": "1988-06-23",
+        "fecha_pago": "1988-04-22"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1993-09-17",
+        "importe": 30.44,
+        "fecha_vencimiento": "1992-12-11",
+        "fecha_pago": "1989-04-09"
+      },
+      {
+        "nro_cuota": 10,
+        "fecha_emision": "1992-02-13",
+        "importe": 47.17,
+        "fecha_vencimiento": "1992-07-21",
+        "fecha_pago": "1992-07-17"
+      }
+    ]
+  },
+  {
+    "nro_socio": 816979,
+    "nombre": "Mari",
+    "apellido": "Harrell",
+    "direccion": "3 Loring Avenue, Waterloo, Rhode Island",
+    "deportes": [
+      "GOLF",
+      "RUGBY"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 7,
+        "fecha_emision": "1989-04-19",
+        "importe": 43.56,
+        "fecha_vencimiento": "1988-07-14",
+        "fecha_pago": "1988-05-22"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1993-04-25",
+        "importe": 41.33,
+        "fecha_vencimiento": "1988-11-02",
+        "fecha_pago": "1993-05-22"
+      },
+      {
+        "nro_cuota": 9,
+        "fecha_emision": "1992-09-29",
+        "importe": 34.36,
+        "fecha_vencimiento": "1991-04-12",
+        "fecha_pago": "1993-04-28"
+      }
+    ]
+  },
+  {
+    "nro_socio": 820577,
+    "nombre": "Georgia",
+    "apellido": "Mcknight",
+    "direccion": "77 Jackson Place, Norvelt, Washington",
+    "deportes": [
+      "CESTO BALL",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1988-04-24",
+        "importe": 43.54,
+        "fecha_vencimiento": "1994-12-14",
+        "fecha_pago": "1991-03-22"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1994-02-17",
+        "importe": 21.26,
+        "fecha_vencimiento": "1990-01-24",
+        "fecha_pago": "1994-08-12"
+      },
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1991-02-22",
+        "importe": 46.87,
+        "fecha_vencimiento": "1994-04-19",
+        "fecha_pago": "1992-12-10"
+      }
+    ]
+  },
+  {
+    "nro_socio": 675233,
+    "nombre": "Katrina",
+    "apellido": "Kramer",
+    "direccion": "53 Bergen Court, Norwood, West Virginia",
+    "deportes": [
+      "CESTO BALL",
+      "TENNIS"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 4,
+        "fecha_emision": "1990-12-25",
+        "importe": 16.87,
+        "fecha_vencimiento": "1990-03-01",
+        "fecha_pago": "1989-01-13"
+      },
+      {
+        "nro_cuota": 3,
+        "fecha_emision": "1988-05-26",
+        "importe": 37.04,
+        "fecha_vencimiento": "1992-08-11",
+        "fecha_pago": "1993-08-05"
+      },
+      {
+        "nro_cuota": 2,
+        "fecha_emision": "1990-12-20",
+        "importe": 15.86,
+        "fecha_vencimiento": "1990-10-11",
+        "fecha_pago": "1989-08-23"
+      }
+    ]
+  },
+  {
+    "nro_socio": 717467,
+    "nombre": "Latisha",
+    "apellido": "Sherman",
+    "direccion": "82 Herkimer Court, Ellerslie, Northern Mariana Islands",
+    "deportes": [
+      "TENNIS",
+      "HOCKEY s/CESPED"
+    ],
+    "cuotas": [
+      {
+        "nro_cuota": 6,
+        "fecha_emision": "1990-01-04",
+        "importe": 20.75,
+        "fecha_vencimiento": "1989-09-29",
+        "fecha_pago": "1993-04-02"
+      },
+      {
+        "nro_cuota": 1,
+        "fecha_emision": "1993-12-05",
+        "importe": 41.17,
+        "fecha_vencimiento": "1994-05-04",
+        "fecha_pago": "1994-11-07"
+      },
+      {
+        "nro_cuota": 5,
+        "fecha_emision": "1988-11-29",
+        "importe": 39.36,
+        "fecha_vencimiento": "1988-11-05",
+        "fecha_pago": "1988-04-01"
+      }
+    ]
+  }
 ])
 '

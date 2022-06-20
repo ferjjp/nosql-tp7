@@ -1,0 +1,72 @@
+version: "2"
+services:
+  cfg1:
+    container_name: cfgServer1
+    image: mongo:4.4.6
+    ports:
+      - "27001:27019"
+    restart: always
+    entrypoint: [ "/usr/bin/mongod", "--configsvr" ,"--bind_ip_all", "--replSet", "tp7_cfg" ]
+  cfg2:
+    container_name: cfgServer2
+    image: mongo:4.4.6
+    ports:
+      - "27002:27019"
+    restart: always
+    entrypoint: [ "/usr/bin/mongod","--configsvr", "--bind_ip_all", "--replSet", "tp7_cfg" ]
+  cfg3:
+    container_name: cfgServer3
+    image: mongo:4.4.6
+    ports:
+      - "27003:27019"
+    restart: always
+    entrypoint: [ "/usr/bin/mongod", "--configsvr", "--bind_ip_all", "--replSet", "tp7_cfg" ]
+  rs1_1:
+    container_name: rs1_1
+    image: mongo:4.4.6
+    ports:
+      - "27101:27018"
+    restart: always
+    entrypoint: [ "/usr/bin/mongod", "--shardsvr" ,"--bind_ip_all", "--replSet", "tp7_rs1" ]
+  rs1_2:
+    container_name: rs1_2
+    image: mongo:4.4.6
+    ports:
+      - "27102:27018"
+    restart: always
+    entrypoint: [ "/usr/bin/mongod","--shardsvr", "--bind_ip_all", "--replSet", "tp7_rs1" ]
+  rs1_3:
+    container_name: rs1_3
+    image: mongo:4.4.6
+    ports:
+      - "27103:27018"
+    restart: always
+    entrypoint: [ "/usr/bin/mongod", "--shardsvr", "--bind_ip_all", "--replSet", "tp7_rs1" ]
+  rs2_1:
+    container_name: rs2_1
+    image: mongo:4.4.6
+    ports:
+      - "27201:27018"
+    restart: always
+    entrypoint: [ "/usr/bin/mongod", "--shardsvr" ,"--bind_ip_all", "--replSet", "tp7_rs2" ]
+  rs2_2:
+    container_name: rs2_2
+    image: mongo:4.4.6
+    ports:
+      - "27202:27018"
+    restart: always
+    entrypoint: [ "/usr/bin/mongod","--shardsvr", "--bind_ip_all", "--replSet", "tp7_rs2" ]
+  rs2_3:
+    container_name: rs2_3
+    image: mongo:4.4.6
+    ports:
+      - "27203:27018"
+    restart: always  
+    entrypoint: [ "/usr/bin/mongod","--shardsvr", "--bind_ip_all", "--replSet", "tp7_rs2" ]
+  router:
+    container_name: router
+    image: mongo:4.4.6
+    ports:
+      - "27300:27017"
+    restart: always
+    entrypoint: ["mongos", "--configdb", "<tp7_cfg>/cfg1:27019,cfg2:27019,cfg3:27019", "--bind_ip_all"]

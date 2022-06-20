@@ -1,0 +1,20 @@
+#!/bin/bash
+set -x
+
+docker exec -it cfgServer1 mongo --port 27019 --eval "rs.initiate({_id: \"tp7_cfg\", version: 1, configsvr: true, members: [ {_id: 0, host:\"cfg1:27019\"}, {_id: 1, host: \"cfg2:27019\"}, {_id: 2, host: \"cfg3:27019\"}]})"
+
+docker exec -it rs1_1 mongo --port 27018 --eval "rs.initiate({_id: \"tp7_rs1\", version: 1, members: [ {_id: 0, host:\"rs1_1:27018\"}, {_id: 1, host: \"rs1_2:27018\"}, {_id: 2, host: \"rs1_3:27018\"}]})"
+docker exec -it rs2_1 mongo --port 27018 --eval "rs.initiate({_id: \"tp7_rs2\", version: 1, members: [ {_id: 0, host:\"rs2_1:27018\"}, {_id: 1, host: \"rs2_2:27018\"}, {_id: 2, host: \"rs2_3:27018\"}]})"
+
+echo "Waiting for replica sets and routers.."
+sleep 60
+
+docker exec -it router mongo --port 27017 --eval 'sh.addShard("tp7_rs1/rs1_1:27018,rs1_2:27018,rs1_3:27018")'
+docker exec -it router mongo --port 27017 --eval 'sh.addShard("tp7_rs2/rs2_1:27018,rs2_2:27018,rs2_3:27018")'
+docker exec -it router mongo --port 27017 --eval 'sh.enableSharding("GestionClub")'
+docker exec -it router mongo --port 27017 --eval 'sh.shardCollection("GestionClub.socios",{_id: "hashed"})'
+
+# if the collection already has data, the last command will fail, we have to create an index in that case..
+# it's a quite complicated procedure...https://www.mongodb.com/docs/manual/tutorial/build-indexes-on-sharded-clusters/
+
+
